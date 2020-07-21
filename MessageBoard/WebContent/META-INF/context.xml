@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context reloadable="true">
+	<Resource name="jdbc/messageboard" auth="Container"
+		driverClassName="com.mysql.cj.jdbc.Driver" 
+		url="jdbc:mysql://localhost:3306/messageboard?useSSL=false&amp;autoReconnect=true" 
+		username="root"
+		password="123" maxActive="100" maxidle="30" maxWait="10000"
+		logAbandoned="true" removeAbandoned="true"
+		removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
+
